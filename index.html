@@ -35,23 +35,9 @@
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
                 <ul
                   tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-3 shadow ">
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-3 shadow">
                     <li><a>Home</a></li>
                     <li><a>Services</a></li>
                     <li><a>Portfolio</a></li>
@@ -60,9 +46,23 @@
                 </ul>
               </div class="flex">
               <a class="btn btn-ghost text-xl"> <i class="fa-solid fa-arrow-right text-black p-3 rounded-full -rotate-45 bg-primary-bg"></i>Rinterio</a>
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-72">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 ">
+              <ul class="menu menu-horizontal px-1  ">
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
@@ -155,7 +155,7 @@
                     <p class="text-gray-500 max-w-xl mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
                 </div>
-                <div class="grid mx-auto grid-cols-1 lg:grid-cols-4 gap-6 text-start">
+                <div class="grid mx-auto lg:grid-cols-4 gap-6 text-start">
                     <div class="rounded-lg shadow-md bg-red-100 overflow-hidden max-w-72 mx-auto">
                         <img class="pt-4 pl-4" src="Images/concept.png" alt="">
                         <div class="p-4">
@@ -195,12 +195,12 @@
                     <p class="text-gray-500 max-w-xl mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
                 </div>
-                <div class="mx-auto row-span-1">
-                     <div class="grid lg:grid-cols-4 gap-4">
+                <div class="">
+                     <div class="grid lg:grid-cols-4 gap-4 mx-auto lg:px-26 ml-28">
                         <div class="h-[175px] w-[260px]">
                             <img src="Images/img1.png" alt="">
                         </div>
-                        <div class="col-span-2 [175px] w-[440px] py-5">
+                        <div class="lg:col-span-2 [175px] w-[440px] py-5">
                             <h2 class="font-bold text-xl gap-6">Commercial</h2>
                             <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                             <button class="btn text-black font-bold rounded-full">View Details <i class="fa-solid fa-arrow-right text-black p-2 rounded-full -rotate-45 bg-green-300 font-bold"></i></a></button>
@@ -227,7 +227,6 @@
             </div>
       </section>
       <section class="bg-img bg-no-repeat mx-auto lg:max-w-[970px] py-24 mb-4">
-      
       </div>
         <div class="text-center mb-8">
           <div class="mb-5">
@@ -251,7 +250,61 @@
                   </a>
                 </div>
        </section>
-
+       <section>
+        <div class="bg-slate-100 py-8">
+          <div class="lg:max-w-[1170px] lg:mx-auto ml-20" >
+            <p class="text-red-500 font-bold text-xl ">Our Team</p>
+            <p class="font-bold text-3xl py-3">Meet Our</p>
+            <p class="font-bold text-5xl py-3">Awesome Agents</p>
+          </div>
+          <div class="grid lg:grid-cols-4 lg:max-w-[1170px] mx-auto text-center py-8 lg:gap-4 max-w-[400px] gap-8">
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="Images/a1.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title ext-2xl text-center justify-center">Brandon Christain</h2>
+                <p>Company Agent</p>
+              </div>
+            </div>
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="Images/a2.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title ext-2xl text-center justify-center">Justin Leonard</h2>
+                <p>Company Agent</p>
+              </div>
+            </div>
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="Images/a3.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title text-2xl text-center justify-center">Bernadette lio</h2>
+                <p>Company Agent</p>
+              </div>
+            </div>
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="Images/a4.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title text-2xl text-center justify-center">Lillian Prnelope</h2>
+                <p>Company Agent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
     </main>
     <footer>
         <div class="bg-black py-12">
